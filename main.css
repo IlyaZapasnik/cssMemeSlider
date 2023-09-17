@@ -5,6 +5,10 @@
 .slide {
     display: none;
 }
+
+.caption {
+    display: none;
+}
 .slider-wrapper {
     display: flex;
     flex-direction: column;
@@ -37,7 +41,7 @@
   }
 
   .active, .dot:hover {
-    background-color: #717171;
+    background-color: #f10707;
   }
 
   .animate {
