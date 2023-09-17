@@ -9,7 +9,7 @@
 .caption {
     display: none;
     font-size: 20px;
-    color:hsl(0, 0%, 3%)
+    color:hsl(239, 93%, 11%)
 }
 .slider-wrapper {
     display: flex;
@@ -57,7 +57,7 @@
   }
   
   @keyframes animate {
-    from {opacity: .4} 
+    from {opacity: 0.3} 
     to {opacity: 1}
   }
   

@@ -24,5 +24,6 @@ showSlides(slideIndex);
     slides[slideIndex-1].style.display = "block";  
     textItems[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
+    textItems[slideIndex-1].className += " animate";
      
   }
