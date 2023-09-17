@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Slider</title>
+</head>
+<body>
+    <div class="slider-wrapper">
+        <div class="slider-container">
+            <div class="slide animate">
+                <img class="img" src="./img/Alpes.jpg" width="1200px" alt="Alps">
+            </div>
+            <div class="slide animate">
+                <img class="img" src="./img/Carp.jpg" alt="Carpathian">
+            </div>
+            <div class="slide animate">
+                <img class="img" src="./img/Him.jpg" alt="Himalayas">
+            </div>
+            <div class="slide animate">
+                <img class="img" src="./img/Andes.jpg" width="1200px" alt="Andes">
+            </div>
+            <div class="slide animate">
+                <img class="img" src="./img/Tatra.jpg" alt="Tatra">
+            </div>
+        </div>
+        <div class="slider-footer">
+            <div class="text">
+                <span class="caption">Alps</span>
+                <span class="caption">Carpathian mountains</span>
+                <span class="caption">Himalayas</span>
+                <span class="caption">Andes</span>
+                <span class="caption">Tatra Mountains</span>
+            </div>
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
